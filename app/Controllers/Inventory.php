@@ -11,6 +11,7 @@ class Inventory extends ResourceController
     use ResponseTrait;
     protected $inventoryModel;
 
+
     public function __construct()
     {
         $this->inventoryModel = new InventoryModel();
